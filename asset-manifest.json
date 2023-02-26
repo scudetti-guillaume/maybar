@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/scudetti-guillaume.github.io/maybar/static/css/main.44371b2e.css",
-    "main.js": "/scudetti-guillaume.github.io/maybar/static/js/main.7641a9b4.js",
-    "static/media/choix.png": "/scudetti-guillaume.github.io/maybar/static/media/choix.23ce6f4213c64b58ee78.png",
-    "index.html": "/scudetti-guillaume.github.io/maybar/index.html",
-    "main.44371b2e.css.map": "/scudetti-guillaume.github.io/maybar/static/css/main.44371b2e.css.map",
-    "main.7641a9b4.js.map": "/scudetti-guillaume.github.io/maybar/static/js/main.7641a9b4.js.map"
+    "main.css": "/maybar/static/css/main.efa93ea3.css",
+    "main.js": "/maybar/static/js/main.987e3d1d.js",
+    "static/media/choix.png": "/maybar/static/media/choix.23ce6f4213c64b58ee78.png",
+    "index.html": "/maybar/index.html",
+    "main.efa93ea3.css.map": "/maybar/static/css/main.efa93ea3.css.map",
+    "main.987e3d1d.js.map": "/maybar/static/js/main.987e3d1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.44371b2e.css",
-    "static/js/main.7641a9b4.js"
+    "static/css/main.efa93ea3.css",
+    "static/js/main.987e3d1d.js"
   ]
 }

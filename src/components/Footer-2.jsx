@@ -41,7 +41,7 @@ const Footer = ({ scrollToComponent }) => {
                 <Modal className='Modale-Contact' isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}   >
                     <ContactMod closeModal={() => setModalIsOpen(false)} />
                 </Modal>
-                <NavLink to="/maybar/condition"  >
+                <NavLink to="/condition"  >
                     <li className='Footer-li'>
                         <div className='Footer-condition'>Conditions</div>
                     </li >

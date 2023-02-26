@@ -12,13 +12,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/maybar/">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path='maybar/carte' element={<Carte />} />
-          <Route path='maybar/contact' element={<Contact />} />
-          <Route path='maybar/condition' element={<Conditions />} />
-          <Route path='maybar/*' element={<NotFound />} />
+          <Route path='/carte' element={<Carte />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/condition' element={<Conditions />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>

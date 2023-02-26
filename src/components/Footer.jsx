@@ -48,7 +48,7 @@ const Footer = ({ scrollToComponent }) => {
                 
                 
                 
-                <NavLink to="/condition" target='_blank' >
+                <NavLink to="/maybar/condition"  >
                 <li className='Footer-li'>
                     <div className='Footer-condition'>Conditions</div>
                 </li >

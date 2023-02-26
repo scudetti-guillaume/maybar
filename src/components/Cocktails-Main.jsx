@@ -21,7 +21,7 @@ const Cocktails = () => {
 
                 <div className="Cocktail-footer-navlink-btn">
 
-                    <NavLink className="Cocktail-footer-navlink-tocarte" target='_blank' to='/carte'>
+                    <NavLink className="Cocktail-footer-navlink-tocarte"  to='/maybar/carte'>
                         <button className="Cocktail-footer-navlink-btn-tocarte">
                             <BsBook className='Cocktail-footer-navlink-btn-tocarte-icon' color='white' size='20px' />  
                             <span className='Cocktail-footer-navlink-btn-tocarte-span' >Découvrez la carte complete MAYBAR</span>

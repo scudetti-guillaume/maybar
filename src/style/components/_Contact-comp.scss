@@ -8,9 +8,8 @@ flex-direction: column;
     color: $white;
     padding: 1%;
     width: 100%;
-    
     overflow-y: scroll;
-    height: 80vh;
+    min-height: 850px;
     // border: $borderStyle;
     // border-radius: $borderRadius;
 
@@ -34,6 +33,7 @@ font-weight: bold;
 margin-left: 90%;
 margin-top: 2%;
 color:  white;
+background-color: transparent;
 }
 
 
@@ -203,7 +203,7 @@ color:  white;
     height: 5%;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
 
 }
 

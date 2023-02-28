@@ -16,9 +16,9 @@ const CocktailsBlockLeft = () => {
                             Vous aurez le choix entre
                             <span>la rubrique classique</span> (qui
                             regroupe les cocktails les plus connus pour plaire à tout
-                            le monde),
+                            le monde),et
                             <br />
-                            et <span>nos créations du moment</span>
+                            <span> nos créations du moment</span>
                             (cette carte varie selon les saisons et les
                             envies de nos Mixologues).»</p>
                     </div>
@@ -29,21 +29,25 @@ const CocktailsBlockLeft = () => {
                     </div>
                     <div className="CB-block-left-block-mocktail">
                         <p className='CB-block-left-block-mocktail-p'>
-                            «Un Mocktail et un cocktail sans alcool.
+                            <span>Un Mocktail est un cocktail sans alcool. </span>  <br />
+                            <span>  Il est l’assemblage des termes
+                                mock et cocktail qui signifient imitation et mélange.</span> 
+                          
+                          
+                          
                             <br />
-
-                            Il est l’assemblage des termes anglo-saxons
-                            mock et cocktail qui signifient imitationet mélange.
+                            <span>   Ceux ci sont travaillés de façon à mettre en
+                                avant les ingrédients dit secondaires pour les
+                                cocktails : sirop, jus de fruit, soda,
+                                eau aromatisée ...</span> 
+                         
+                          
                             <br />
-                            Ceux ci sont travaillés de façon à mettre en
-                            avant les ingrédients dit secondaires pour les
-                            cocktails (tel que sirop, jus de fruit, soda,
-                            eau aromatisée, ...).
-                            <br />
-                            Nous vous proposons cette sélection de Mocktails
-                            afin de compléter vos envies pour vos
-                            évènements et n’oublier personne. »
-                        </p>
+                            <span> Nous vous proposons cette sélection de Mocktails
+                                afin de compléter vos envies pour vos
+                                évènements et n’oublier personne. </span> 
+                           
+                          </p>
                     </div>
                 </div>
                 {/* <div className="CB-block-left-navlink-btn">

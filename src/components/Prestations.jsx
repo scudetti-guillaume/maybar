@@ -1,4 +1,4 @@
-import React , {useState} from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Modal from "react-modal";
 import BlockPhotosPrestation from './Block-photos-prestation';
@@ -27,7 +27,7 @@ const Prestations = () => {
                         mariages, anniversaires, séminaires, portes ouvertes, ...
                     </span>
                     <span className="Presta-block-decription-span">
-                        N'hésitez pas à demander votre devis via la page contact ou directement sur nos réseaux.
+                        N'hésitez pas à demander votre devis via le formualire de contact ou directement sur nos réseaux.
 
                     </span>
 
@@ -43,9 +43,9 @@ const Prestations = () => {
 
                         <div className="Presta-footer-navlink-logo">
 
-                            <div className="Presta-block-decription-btn-form-mod" onClick={() => setModalIsOpen(true)} >Contact</div>
+                            <div className="Presta-block-decription-btn-form-mod" onClick={() => setModalIsOpen(true)} ><span className="Presta-block-decription-btn-form-mod-span">Formulaire</span></div>
                             <Modal className='Modale-Contact' isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}   >
-                                <ContactMod closeModal={() => setModalIsOpen(false)}  />
+                                <ContactMod closeModal={() => setModalIsOpen(false)} />
                             </Modal>
                             {/* <NavLink className="Presta-block-decription-Navlink-btn" to="/contact" target='_blank '>
                                 <div className="Presta-block-decription-btn-form">Contact</div>

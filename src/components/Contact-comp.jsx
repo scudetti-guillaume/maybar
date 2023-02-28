@@ -30,9 +30,9 @@ const ContactComp = ({ closeModal }) => {
 
     return (
         <>
-            <div onClick={closeModal} shouldCloseOnOverlayClick={true} className="Contact-closeModale">X</div>
+            
             <div className=" Contact-main-mod ">
-
+                <div onClick={closeModal} shouldCloseOnOverlayClick={true} className="Contact-closeModale">X</div>
                 <div className="Contact-main-block-mod">
                     <div className="Contact-main-block-header-mod">
 

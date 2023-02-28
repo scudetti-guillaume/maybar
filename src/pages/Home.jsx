@@ -3,7 +3,8 @@ import '../style/page/_Home.scss';
 import Navigation from '../components/Navigation';
 import Presentation from '../components/Presentation';
 import News from '../components/News';
-import Cocktails from '../components/Cocktails-Main';
+// import Cocktails from '../components/Cocktails-Main';
+import Drinks from '../components/Drinks-MainV2';
 import Prestations from '../components/Prestations';
 import Footer from '../components/Footer';
 
@@ -58,8 +59,9 @@ const Home = () => {
                 <Presentation />
 
                 <News />
-
-                <Cocktails />
+                <Drinks />
+                
+                {/* <Cocktails /> */}
 
                 <Prestations />
                  </div>

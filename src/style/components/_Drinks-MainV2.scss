@@ -1,6 +1,6 @@
 @import "../_settings.scss";
 
-.Cocktail-main {
+.Drink-main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,45 +10,71 @@
     width: 100%;
 }
 
-.Cocktail-titre {
+.Drink-titre {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50px;
+    // height: 50px;
     border: $borderStyle;
     border-radius: $borderRadius;
-    color: $color-2
+    color: $color-2;
+    padding: 1%;
 }
 
-.Cocktail-container {
+
+.Drink-container {
     width: 100%;
     height: 80%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: $borderStyle;
     border-radius: $borderRadius;
 }
 
-.Cocktail-footer {
+.DrinksCocktails{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+max-height: 50%;
+
+}
+.DrinksMocktails{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+max-height: 50%;
+
+}
+
+
+
+
+
+
+.Drink-footer {
     display: flex;
     align-items: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 15vh;
+    // height: 15vh;
+    padding: 1%;
     border: $borderStyle;
     border-radius: $borderRadius;
 }
 
-.Cocktail-footer-navlink-btn {
+.Drink-footer-navlink-btn {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
     width: 80%;
-    height: 50px;
+    max-width: 800px;
+    // height: 50px;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
     // border: $borderStyle;
@@ -56,57 +82,57 @@
     color: $color-3;
 }
 
-.Cocktail-footer-navlink-tocarte {
+.Drink-footer-navlink-tocarte {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1%;
-    height: 100%;
+    // height: 100%;
     width: 100%;
     color: $white;
     font-family: $font-2;
 }
 
-.Cocktail-footer-navlink-btn-tocarte {
+.Drink-footer-navlink-btn-tocarte {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 1%;
+    padding: 4%;
     border: $borderStyle;
     border-radius: $borderRadius;
-    height: 50px;
+    // height: 50px;
     width: 100%;
     background: $color-1;
     color: $white;
     font-family: $font-2;
 }
 
-.Cocktail-footer-navlink-btn-tocarte-icon {
+.Drink-footer-navlink-btn-tocarte-icon {
     margin-right: 2%;
     size: 20px;
     color: white;
 }
 
-.Cocktail-footer-navlink-btn-tocarte-span {
+.Drink-footer-navlink-btn-tocarte-span {
     font-size: 15px;
 
 }
 
-.Cocktail-footer-navlink-dlpdf {
+.Drink-footer-navlink-dlpdf {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1%;
-    height: 50px;
+    // height: 50px;
     width: 100%;
 }
 
-.Cocktail-footer-navlink-btn-dlpdf {
+.Drink-footer-navlink-btn-dlpdf {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 1%;
-    height: 50px;
+    padding: 4%;
+    // height: 50px;
     width: 100%;
     border: $borderStyle;
     border-radius: $borderRadius;
@@ -115,70 +141,70 @@
     font-family: $font-2;
 }
 
-.Cocktail-footer-navlink-btn-dlpdf-icon {
-    margin-left: 1%;
+.Drink-footer-navlink-btn-dlpdf-icon {
+display: flex;
     size: 20px;
     color: white;
 }
 
-.Cocktail-footer-navlink-btn-dlpdf-span {
+.Drink-footer-navlink-btn-dlpdf-span {
+display: flex;
     font-size: 15px;
-
-
-
 }
 
 
 
-.Cocktail-footer-navlink-block {
+.Drink-footer-navlink-block {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     width: 80%;
-    height: 45px;
+    max-width: 800px;
+    // height: 45px;
     border: $borderStyle;
     border-radius: $borderRadius;
     color: $color-3;
+    padding: 1%;
 }
 
 
-.Cocktail-footer-navlink-span {
+.Drink-footer-navlink-span {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     width: 80%;
     height: 100%;
-    border: $borderStyle;
-    border-radius: $borderRadius;
+    // border: $borderStyle;
+    // border-radius: $borderRadius;
     color: $color-3;
 }
 
-.Cocktail-footer-navlink-logo {
+.Drink-footer-navlink-logo {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
     width: 20%;
     height: 100%;
-    border: $borderStyle;
-    border-radius: $borderRadius;
+    // border: $borderStyle;
+    // border-radius: $borderRadius;
 }
 
-.Cocktail-footer-social-icon-fb {
+.Drink-footer-social-icon-fb {
     width: 70%;
     height: 70%;
     cursor: pointer;
 }
 
-.Cocktail-footer-social-icon-insta {
+.Drink-footer-social-icon-insta {
     width: 80%;
     height: 80%;
     cursor: pointer;
 }
 
-.Cocktail-footer-logo-facebook {
+.Drink-footer-logo-facebook {
     width: 40px;
     height: 40px;
     border: 2px solid $color-3;
@@ -189,7 +215,7 @@
     background-color: #3b5998;
 }
 
-.Cocktail-footer-logo-insta {
+.Drink-footer-logo-insta {
     width: 40px;
     height: 40px;
     border: 2px solid $color-3;

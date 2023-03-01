@@ -12,8 +12,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <>
-      {/* <BrowserRouter basename="/maybar/"> */} 
-      <BrowserRouter >
+      <BrowserRouter basename="/maybar/"> 
+      {/* <BrowserRouter > */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/carte' element={<Carte />} />

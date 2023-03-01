@@ -10,6 +10,7 @@ const News = () => {
             <div className='News-block-titre'>
                 <div className='News-h1'>
                     <h1 className='News-h1-span'> l'actu de Maybar</h1>
+                    <h1 className='News-h1-span-mq'> Nos actus </h1>
                 </div>
                 <div className='News-h1-reseau'>
                     <p className='News-h1-reseau-p'>
@@ -17,6 +18,9 @@ const News = () => {
                     </p> 
                     <p className='News-h1-reseau-p-mq'>
                         suivez nos actus sur les réseaux sociaux
+                    </p> 
+                    <p className='News-h1-reseau-p-mq-2'>
+                        nos réseaux sociaux
                     </p>
                     <div className='News-block-reseau'>
                         <NavLink to="https://www.facebook.com/MaybarMobile" target='_blank' >

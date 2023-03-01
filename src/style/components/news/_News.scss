@@ -7,7 +7,7 @@ align-items: center;
 flex-direction: column;
 margin-bottom: 2%;
 width: 100%;
-height: 1000px;
+height: 100%;
 border: 2px solid red;
 border-radius: $borderRadius;
 padding-top: 5px;
@@ -16,7 +16,7 @@ background:$background-maybar
 
 @media screen and (max-width: 768px) {
 .News-main {
-    height: 1400px;}
+  height: 100%;}
 }
 
 .News-block-titre{
@@ -25,7 +25,7 @@ align-items: center;
 flex-direction: column;
 width: 100%;
 max-width: 800px;
-height: 100px;
+height: 100%;
 }
 
 .News-h1{
@@ -38,12 +38,25 @@ border: $borderStyle;
 border-radius: $borderRadius;
 margin-bottom: 5px;
 background-color: $white;
+
 }
 
 .News-h1-span{
 display: flex;
 justify-content: center;
 width: 100%;
+}
+
+   @media screen and (min-width: 408px) {
+.News-h1-span-mq {
+    display: none;
+
+}
+   }
+   @media screen and (max-width: 408px) {
+.News-h1-span {
+display: none;
+}
 
 }
 
@@ -55,6 +68,10 @@ justify-content: center;
 border: $borderStyle;
 border-radius: $borderRadius;
 background-color: $white;
+   @media screen and (max-width: 458px) {
+        width: 60%;
+        flex-direction: column;
+    }
 }
 
 .News-h1-reseau-p{
@@ -77,6 +94,22 @@ display: flex;
 @media screen and (min-width: 768px) {
         display: none;
     }
+   @media screen and (max-width: 458px) {
+       display: none;
+   }
+    
+    
+}
+
+.News-h1-reseau-p-mq-2{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+    @media screen and (min-width: 459px) {
+        display: none;
+    }
 }
 
 .News-block-reseau{
@@ -85,6 +118,9 @@ align-items: center;
 justify-content: space-around;
 height: 45px;
 width : 20%;
+@media screen and (max-width: 458px) {
+    width: 80%;
+    }
 }
 
 .News-div-social-fb{

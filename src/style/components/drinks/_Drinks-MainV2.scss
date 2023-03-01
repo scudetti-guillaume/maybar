@@ -78,14 +78,12 @@
     color: $color-3;
 }
 
-        @media screen and (max-width: 508px) {
-            .Drink-footer-navlink-btn{
-                width: 100%;
-    
-    
-            }
-    
-        }
+@media screen and (max-width: 508px) {
+    .Drink-footer-navlink-btn {
+        width: 100%;
+    }
+
+}
 
 
 
@@ -126,7 +124,7 @@
 
 }
 
-@media screen and (max-width: 841px) {
+@media screen and (max-width: 842px) {
     .Drink-footer-navlink-btn-tocarte-mq {
         display: flex;
         justify-content: space-around;
@@ -152,13 +150,13 @@
     }
 }
 
-@media screen and (min-width: 842px) {
+@media screen and (min-width: 843px) {
     .Drink-footer-navlink-btn-tocarte-mq {
         display: none;
     }
 }
 
-@media screen and (max-width: 842px) {
+@media screen and (max-width: 843px) {
     .Drink-footer-navlink-btn-tocarte {
         display: none;
     }
@@ -239,7 +237,7 @@
         display: none;
     }
 }
-    
+
 
 .Drink-footer-navlink-block {
     display: flex;
@@ -253,13 +251,22 @@
     border-radius: $borderRadius;
     color: $color-3;
     padding: 1%;
-@media screen and (max-width: 768px) {
-    justify-content: space-around;
-}
+
+    @media screen and (max-width: 768px) {
+        justify-content: space-around;
+    }
+
     @media screen and (max-width: 648px) {
         width: 80%;
-            flex-direction: column;
+        flex-direction: column;
     }
+
+    @media screen and (max-width: 508px) {
+        width: 90%;
+    }
+
+
+
 }
 
 
@@ -273,10 +280,11 @@
     // border: $borderStyle;
     // border-radius: $borderRadius;
     color: $color-3;
+
     @media screen and (max-width: 768px) {
         display: none;
     }
-       
+
 
 }
 
@@ -294,18 +302,13 @@
         // border: $borderStyle;
         // border-radius: $borderRadius;
         color: $color-3;
+
         @media screen and (max-width: 648px) {
-                width: 100%;
-                padding-bottom: 2%;
-            }
-        
-        
-        
+            width: 100%;
+            padding-bottom: 2%;
+        }
     }
-    
-    
-    
-          
+
 }
 
 @media screen and (min-width: 768px) {
@@ -321,11 +324,13 @@
     justify-content: space-between;
     width: 20%;
     height: 100%;
+
     @media screen and (max-width: 768px) {
-    width: 30%;
-    justify-content: space-between;
-    
+        width: 40%;
+        justify-content: space-between;
+
     }
+
     // border: $borderStyle;
     // border-radius: $borderRadius;
 }

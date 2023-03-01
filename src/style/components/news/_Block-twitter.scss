@@ -1,0 +1,51 @@
+@import "../../_settings.scss";
+
+.News-block-twitter-main{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+height: 270px;
+width: 100%;
+border: $borderStyle;
+border-radius: $borderRadius;
+padding: 5px;
+background-color: #292929;
+}
+
+.News-block-twitter-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+    margin-bottom: 5px;
+    font-family: $font-2;
+    font-size: xx-large;
+    background-color: $color-4;
+}
+
+.News-block-twitter-p{
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 200px;
+        width: 100%;
+        border: $borderStyle;
+        border-radius: $borderRadius;
+        text-align: center;
+        padding: 5px;
+        background-color: $color-4;
+}
+
+.News-block-twitter-h2{
+display: flex;
+margin-top: 5px;
+ margin-bottom: 10px;
+}
+
+.News-block-twitter-span{
+text-align: center;
+margin-bottom: 10px;
+}

@@ -1,37 +1,35 @@
 @import "../_settings.scss";
 
 
-.Condition-main{
-color: $color-3;
-padding: 2%;
-
-
+.Condition-main {
+    color: $color-3;
+    padding: 2%;
+    display: flex;
+    height: 100%;
 }
 
 .logo-name-condition {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
-    width: 30%;
- 
+    margin-top: 2%;
+    margin-bottom: 1%;
+    height: 5vh;
+    width: 80%;
 }
 
-
-.Condition-h1{
-margin-bottom: 10px;
+.Condition-h1 {
+    margin-bottom: 10px;
     background: $background-reservation;
-        background-position: -10em;
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-// animation: backgroung-general 4s linear infinite;
+    background-position: -10em;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    // animation: backgroung-general 4s linear infinite;
 }
 
-.Conditions-p{
-// margin-bottom: 10px;
-text-align: center;
-padding: 1%
-
-
+.Conditions-p {
+    // margin-bottom: 10px;
+    text-align: center;
+    padding: 1%
 }

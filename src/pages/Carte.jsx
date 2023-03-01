@@ -1,7 +1,7 @@
 import React from 'react';
-import "../style/page/_Carte.scss";
-import Navigation from '../components/Navigation-2';
-import Footer from '../components/Footer-2';
+// import "../style/page/_Carte.scss";
+import Navigation from '../components/navigation/Navigation-2';
+import Footer from '../components/footer/Footer-2';
 import drinkcard from '../data/data-carte.js';
 
 

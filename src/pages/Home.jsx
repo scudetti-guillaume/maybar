@@ -1,12 +1,12 @@
 import React from 'react';
-import '../style/page/_Home.scss';
-import Navigation from '../components/Navigation';
-import Presentation from '../components/Presentation';
-import News from '../components/News';
+// import '../style/page/_Home.scss';
+import Navigation from '../components/navigation/Navigation';
+import Presentation from '../components/presentation/Presentation';
+import News from '../components/news/News';
 // import Cocktails from '../components/Cocktails-Main';
-import Drinks from '../components/Drinks-MainV2';
-import Prestations from '../components/Prestations';
-import Footer from '../components/Footer';
+import Drinks from '../components/drinks/Drinks-MainV2';
+import Prestations from '../components/prestation/Prestations';
+import Footer from '../components/footer/Footer';
 
 
 

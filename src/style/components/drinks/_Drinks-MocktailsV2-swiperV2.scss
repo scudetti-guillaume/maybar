@@ -1,0 +1,118 @@
+
+@import "../../_settings.scss";
+
+
+.DMV2-S2-mocktails-card-main{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 85%;
+    width: 80%;
+
+}
+
+.DMV2-S2-mocktails-card-main-contenair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+}
+
+.DMV2-S2-mocktails-card-main-swiper {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    // height: 50%;
+    height: 100%;
+    width: 100%;
+
+}
+
+.DMV2-S2-mocktails-card-main-swiper-slider-contenair {
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    // height: 100%;
+    width: 100%;
+    background-size: cover;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+}
+
+.DMV2-S2-mocktails-card-main-swiper-slider-contenair-texte {
+    display: flex;
+    height: 100%;
+    // width: 100%;
+}
+
+
+.DMV2-S2-mocktails-card-main-swiper-slider-contenair-p {
+    display: flex;
+    flex-direction: column;
+    // height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232327;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+
+}
+
+.DMV2-S2-mocktails-card-main-swiper-slider-nom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15%;
+    width: 100%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+
+}
+
+.DMV2-S2-mocktails-card-main-swiper-slider-ingredients {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 45%;
+    width: 100%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+
+
+}
+
+.DMV2-S2-mocktails-card-main-swiper-slider-description {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40%;
+    width: 100%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+    text-align: center;
+
+}
+
+
+.DMV2-S2-mocktails-card-main-swiper-slider-img {
+    display: flex;
+    width: 50%;
+    background-color: #01011cfb;
+    background-size: cover;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+    // align-items: center;
+    // justify-content: center;
+    max-height: 50%;
+    // object-fit: cover;
+
+}

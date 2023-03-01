@@ -1,0 +1,115 @@
+@import "../../_settings.scss";
+
+.Nav-main{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 3vh;
+width : 100%;
+padding-left: 8%;
+padding-right: 8%;
+background-color: #998f8f9a;
+
+}
+
+.NavLink-block-logo{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 4vh;
+width : 20%;
+margin-left: 2%;
+}
+
+.Nav-block-logo{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 4vh;
+width : 100%;
+// cursor: pointer;
+// border: $borderStyle;
+// border-radius: $borderRadius;
+}
+
+.Nav-logo-icon{
+width: 30px;
+height: 30px;
+border-radius: 10px;
+margin-right: 5px;
+  @media screen and (max-width: 768px){
+        display: none;
+      }
+    }
+
+.Nav-logo-name{
+width: 100px;
+height: 30px;
+border-radius: 10px;
+}
+
+.Nav-Maybar{
+font-family: $font-2;
+}
+
+.Nav-ul{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+height: 3vh;
+width : 50%;
+font-family: $font-2;
+}
+
+.Nav-li,.Nav-li-text,.Nav-contact-icon{
+ cursor: pointer;
+}
+
+
+
+
+  @media screen and (max-width: 768px) {
+.Nav-news,.Nav-menu,.Nav-presta,.Nav-li-text{
+           display: none
+        }
+}
+  @media screen and (min-width: 768px) {
+.Nav-news-icon,.Nav-carte-icon,.Nav-presta-icon,.Nav-contact-icon{
+           display: none;
+        }
+}
+
+.Nav-div-social-fb{
+width: 40px;
+height: 40px;
+border: $borderStyle;
+border-radius: $borderRadius;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #3b5998;
+}
+
+.Nav-div-social-instagram{
+width: 40px;
+height: 40px;
+border: $borderStyle;
+border-radius: $borderRadius;
+display: flex;
+justify-content: center;
+align-items: center;
+background: $background-logo-instagram
+}
+
+.Nav-social-icon-fb{
+width: 70%;
+height: 70%;
+cursor: pointer;
+}
+
+.Nav-social-icon-insta{
+width: 80%;
+height: 80%;
+cursor: pointer;
+}

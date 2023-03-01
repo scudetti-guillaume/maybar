@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from '../components/Navigation-2';
-import Footer from '../components/Footer-2';
-import '../style/page/_Conditions.scss';
+import Navigation from '../components/navigation/Navigation-2';
+import Footer from '../components/footer/Footer-2';
+// import '../style/page/_Conditions.scss';
 
 const Conditions = () => {
  

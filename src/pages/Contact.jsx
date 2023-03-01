@@ -4,8 +4,8 @@ import { useForm } from "react-hook-form";
 import { NavLink } from 'react-router-dom';
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
+import Navigation from "../components/navigation/Navigation";
+import Footer from "../components/footer/Footer";
 import emailjs from 'emailjs-com';
 
 const Contact = () => {

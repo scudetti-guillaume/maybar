@@ -1,0 +1,201 @@
+@import "../../settings.scss";
+
+.Cocktail-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // border: $borderStyle;
+    // border-radius: $borderRadius;
+    height: 100%;
+    width: 100%;
+}
+
+.Cocktail-titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+    color: $color-2
+}
+
+.Cocktail-container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+}
+
+.Cocktail-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+}
+
+.Cocktail-footer-navlink-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    height: 50px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    // border: $borderStyle;
+    // border-radius: $borderRadius;
+    color: $color-3;
+}
+
+.Cocktail-footer-navlink-tocarte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    height: 100%;
+    width: 100%;
+    color: $white;
+    font-family: $font-2;
+}
+
+.Cocktail-footer-navlink-btn-tocarte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+    height: 50px;
+    width: 100%;
+    background: $color-1;
+    color: $white;
+    font-family: $font-2;
+}
+
+.Cocktail-footer-navlink-btn-tocarte-icon {
+    margin-right: 2%;
+    size: 20px;
+    color: white;
+}
+
+.Cocktail-footer-navlink-btn-tocarte-span {
+    font-size: 15px;
+
+}
+
+.Cocktail-footer-navlink-dlpdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    height: 50px;
+    width: 100%;
+}
+
+.Cocktail-footer-navlink-btn-dlpdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    height: 50px;
+    width: 100%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+    background: $color-1;
+    color: $white;
+    font-family: $font-2;
+}
+
+.Cocktail-footer-navlink-btn-dlpdf-icon {
+    margin-left: 1%;
+    size: 20px;
+    color: white;
+}
+
+.Cocktail-footer-navlink-btn-dlpdf-span {
+    font-size: 15px;
+
+
+
+}
+
+
+
+.Cocktail-footer-navlink-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    height: 45px;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+    color: $color-3;
+}
+
+
+.Cocktail-footer-navlink-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+    color: $color-3;
+}
+
+.Cocktail-footer-navlink-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+    height: 100%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+}
+
+.Cocktail-footer-social-icon-fb {
+    width: 70%;
+    height: 70%;
+    cursor: pointer;
+}
+
+.Cocktail-footer-social-icon-insta {
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+}
+
+.Cocktail-footer-logo-facebook {
+    width: 40px;
+    height: 40px;
+    border: 2px solid $color-3;
+    border-radius: $borderRadius;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b5998;
+}
+
+.Cocktail-footer-logo-insta {
+    width: 40px;
+    height: 40px;
+    border: 2px solid $color-3;
+    border-radius: $borderRadius;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}

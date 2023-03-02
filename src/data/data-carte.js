@@ -8,7 +8,7 @@ const Boissons = [
     decoration: "rondelle de citron",
     preparation: "Préparation au verre, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "16 cl",
-    image: "./photos-cocktail/classiques/gintonic.png",
+    image: "./maybarboissons/cocktails/classique/gintonic.png",
 
   },
   {
@@ -20,7 +20,7 @@ const Boissons = [
     decoration: "Rondelle de citron vert.",
     preparation: "Préparation au verre, servie dans un verre type old fashioned avec des glaçons pleins.",
     quantite: "20 cl",
-    image: "./photos-cocktail/classiques/cubalibre.png",
+    image: "./maybarboissons/cocktails/classique/cubalibre.png",
   },
   {
     nom: "Bloody Mary",
@@ -31,7 +31,7 @@ const Boissons = [
     decoration: "rondelle citron jaune.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./photos-cocktail/classiques/bloodymarry.png",
+    image: "./maybarboissons/cocktails/classique/bloodymary.png",
   },
   {
     nom: "Mojito",
@@ -42,7 +42,7 @@ const Boissons = [
     decoration: "tête de menthe.",
     preparation: "Préparation au verre, servie dans un verre type Mojito avec de la glace pilée.",
     quantite: "10 cl",
-    image: "./photos-cocktail/classiques/mojito.png",
+    image: "./maybarboissons/cocktails/classique/mojito.png",
   },
   {
     nom: "Pina Colada",
@@ -53,7 +53,7 @@ const Boissons = [
     decoration: "Tranche d’ananas.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./photos-cocktail/classiques/pinacolada.png",
+    image: "./maybarboissons/cocktails/classique/pinacolada.png",
   },
   {
     nom: "Moscow Mule",
@@ -64,7 +64,7 @@ const Boissons = [
     decoration: "Rondelle de citron.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec de la glace pilée.",
     quantite: "14 cl",
-    image: "./photos-cocktail/dernierecrea.jpg",
+    image: "./maybarboissons/cocktails/classique/moscowmule.png",
   },
   {
     nom: "Sex On The Beach",
@@ -75,7 +75,7 @@ const Boissons = [
     decoration: "Tranche d’ananas.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./photos-cocktail/dernierecrea.jpg",
+    image: "./maybarboissons/cocktails/classique/sexonthebeach.png",
   },
   {
     nom: "Spritz",
@@ -86,7 +86,7 @@ const Boissons = [
     decoration: "Tranche d’orange.",
     preparation: "Préparation au verre, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./photos-cocktail/dernierecrea.jpg",
+    image: "./maybarboissons/cocktails/classique/spritz.png",
   },
 
   {
@@ -98,7 +98,7 @@ const Boissons = [
     decoration: "Rondelle d'orange.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./photos-cocktail/dernierecrea.jpg",
+    image: "./maybarboissons/cocktails/classique/tequilasunrize.png",
 
   },
   {
@@ -110,7 +110,7 @@ const Boissons = [
     decoration: "Rondelle de citron.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./photos-cocktail/creation/derniercrea2.jpg",
+    image: "./maybarboissons/cocktails/creation/voironnais.png",
 
   },
   {
@@ -118,11 +118,11 @@ const Boissons = [
     categorie: "cocktail",
     originalite: "creation",
     ingredients: "Malibu,Jus de banane,Jus de fraise,Citron jaune",
-    description:"Un Cocktail au goût de fraise prononcé souligné par une saveur à la coco.",
+    description: "Un Cocktail au goût de fraise prononcé souligné par une saveur à la coco.",
     decoration: "Tranche d'orange.",
-    preparation:"Préparation au verre, servie dans un verre type Collins avec des glaçons pleins.",
+    preparation: "Préparation au verre, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./photos-cocktail/creation/derniercrea2.jpg",
+    image: "./maybarboissons/cocktails/creation/banafrai.png",
   },
 
   {
@@ -134,7 +134,7 @@ const Boissons = [
     decoration: "Tranche de pomme.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "20 cl",
-    image: "./photos-cocktail/creation/derniercrea2.jpg",
+    image: "./maybarboissons/cocktails/creation/goblue.png",
   },
 
   {
@@ -146,7 +146,7 @@ const Boissons = [
     decoration: "Tête de menthe.",
     preparation: "Préparation au verre, servie dans un verre type Mojito avec de la glace pilée.",
     quantite: "18 cl",
-    image: "./photos-cocktail/creation/derniercrea2.jpg",
+    image: "./maybarboissons/cocktails/creation/tsikyto.png",
   },
   {
     nom: "Apple Mojito",
@@ -157,7 +157,7 @@ const Boissons = [
     decoration: "Tête de menthe",
     preparation: "Préparation au verre, servie dans un verre type mojito avec de la glace pilée.",
     quantity: "18 cl",
-    image: "./photos-mocktail/applemojito.png",
+    image: "./maybarboissons/mocktails/applemojito.png",
 
   },
   {
@@ -169,7 +169,7 @@ const Boissons = [
     decoration: "Tranche d'ananas",
     preparation: "Préparation au shaker, servie dans un verre type Tumbler avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./photos-mocktail/borabora.png",
+    image: "./maybarboissons/mocktails/borabora.png",
 
   },
   {
@@ -181,7 +181,7 @@ const Boissons = [
     decoration: "Rondelle citron jaune",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./photos-mocktail/fraisebasilic.png",
+    image: "./maybarboissons/mocktails/fraisebasilic.png",
   },
   {
     nom: "Pina no Colada",
@@ -192,7 +192,7 @@ const Boissons = [
     decoration: "Tranche d'ananas",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./photos-mocktail/pinanocola.png",
+    image: "./maybarboissons/mocktails/pinanocolada.png",
   },
 
   {
@@ -204,7 +204,7 @@ const Boissons = [
     decoration: "Tranche d'ananas",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./photos-mocktail/dernierecrea.jpg",
+    image: "./maybarboissons/mocktails/paradise.png",
   },
   {
     nom: "Macumba",
@@ -215,7 +215,7 @@ const Boissons = [
     decoration: "Givrage sucre",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./photos-mocktail/dernierecrea.jpg",
+    image: "./maybarboissons/mocktails/macumba.png",
 
   },
 
@@ -228,7 +228,7 @@ const Boissons = [
     decoration: "Tête de basilic",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./photos-mocktail/dernierecrea.jpg",
+    image: "./maybarboissons/mocktails/matchatabasilic.png",
 
   },
   {
@@ -240,7 +240,7 @@ const Boissons = [
     decoration: "Rondelle de citron.",
     preparation: "Au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./photos-mocktail/dernierecrea.jpg",
+    image: "./maybarboissons/mocktails/fraisebasilic.png",
   },
 
   {
@@ -252,7 +252,7 @@ const Boissons = [
     decoration: "Tranche d'ananas.",
     preparation: "Au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./photos-mocktail/dernierecrea.jpg",
+    image: "./maybarboissons/mocktails/macumba.png",
 
   },
 

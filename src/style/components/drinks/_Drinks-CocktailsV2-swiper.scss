@@ -1,4 +1,3 @@
-
 @import "../../_settings.scss";
 
 .DCV2-main-swiper-cocktails-card {
@@ -6,8 +5,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    // height: 100%;
-    // width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 // div.swiper.wrapper{
@@ -20,8 +19,8 @@
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    // height: 100%;
-    // width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .DCV2-cocktails-card-slider-main {
@@ -29,11 +28,11 @@
     // flex-direction: row;
     align-content: center;
     justify-content: center;
-    // min-height: 100%;
-    // min-width: 100%;
+    height: 100%;
+    width: 100%;
     background-size: cover;
-    border: $borderStyle;
-    border-radius: $borderRadius;
+    // border: $borderStyle;
+    // border-radius: $borderRadius;
 }
 
 .DCV2-cocktails-card-slider {
@@ -44,22 +43,22 @@
     height: 100%;
     width: 100%;
     background-size: cover;
-    border: $borderStyle;
-    border-radius: $borderRadius;
+    // border: $borderStyle;
+    // border-radius: $borderRadius;
 }
 
 .DCV2-block-right-cocktails-card-slider-main {
     overflow: hidden;
     display: flex;
-    height: 100%;
-    width: 100%;
+    // height: 100%;
+    // width: 100%;
 }
 
 .DCV2-block-right-cocktails-card-slider-p {
     display: flex;
     flex-direction: column;
     // height: 100%;
-    max-width: 40%;
+    width: 40%;
     align-items: center;
     justify-content: space-between;
     background-color: #232327;
@@ -111,28 +110,28 @@
     padding: 1%;
 }
 
-.DCV2-block-right-cocktails-card-slider-contenair-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    // min-width: 60%;
-    max-height: 80%;
-    // object-fit: cover;
-    // background-size: cover;
-    border: $borderStyle;
-    border-radius: $borderRadius;
-    background-color: #01011cfb;
-}
+// .DCV2-block-right-cocktails-card-slider-contenair-img {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: 40%;
+//     // height: 80%;
+//     object-fit: cover;
+//     background-size: cover;
+//     border: $borderStyle;
+//     border-radius: $borderRadius;
+//     background-color: #01011cfb;
+// }
 
 .DCV2-block-right-cocktails-card-slider-img {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    // align-items: center;
+    // justify-content: center;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    background-size: cover;
     border: $borderStyle;
     border-radius: $borderRadius;
+    // object-fit: contain;
+    background-size: cover;
     background-color: #01011cfb;
 }

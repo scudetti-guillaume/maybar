@@ -21,7 +21,7 @@ const Navigation = ({ scrollToComponent }) => {
 
     return (
         <div className='Nav-main'>
-            <NavLink className="NavLink-block-logo" to="/maybar/" >
+            <NavLink className="NavLink-block-logo" to="/" >
                 <div className='Nav-block-logo'>
                     <img className='Nav-logo-icon' src='./icons/maybar-header-logo.png' alt='maybar logo'></img>
                     <img className='Nav-logo-name' src='./icons/maybarBc.png' alt='maybar logo'></img>

@@ -9,7 +9,7 @@
     padding: 1%;
     width: 100%;
     overflow-y: scroll;
-    height: 850px;
+    height: 85vh;
     // border: $borderStyle;
     // border-radius: $borderRadius;
 
@@ -75,9 +75,16 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+        @media screen and (max-width: 870px) {
+        
+                flex-direction: column;
+            }
 }
-
-
+ @media screen and (max-width: 870px) {
+     .Contact-main-block-sociaux {
+         flex-direction: column;
+     }
+ }
 
 .Contact-main-block-email-mod {
     display: flex;
@@ -97,6 +104,13 @@
     align-items: center;
     text-align: center;
     padding-bottom: 3%;
+}
+
+.Contact-main-block-sociaux-mod{
+display: flex;
+width: 30%;
+justify-content: space-around;
+align-items: center;
 }
 
 .Contact-main-block-social-icon-fb-mod {
@@ -287,6 +301,7 @@
     background-color: $color-4;
     border: $borderStyle;
     border-radius: $borderRadius;
+    // padding-bottom: 5%;
 }
 
 .Contact-Form-span-send-mod {

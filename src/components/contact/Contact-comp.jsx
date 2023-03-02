@@ -47,6 +47,7 @@ const ContactComp = ({ closeModal }) => {
                     </p>
                     <div className="Contact-main-block-icon-contact-mod">
                         <div className="Contact-main-block-telephone-mod"> <BsFillTelephoneFill /> 0658461109</div>
+                       
                         <NavLink to="mailto:" target='_blank ' >
                             <div className="Contact-main-block-email-mod">
                                 <div className="Contact-main-block-email-icon-mod"><FiMail size="25px" /></div>
@@ -54,13 +55,14 @@ const ContactComp = ({ closeModal }) => {
                             </div>
                         </NavLink>
 
-
+                        <div className="Contact-main-block-sociaux-mod">
                         <NavLink to="https://www.facebook.com/MaybarMobile" target='_blank ' >
                             <div className="Contact-main-block-logo-facebook-mod"><img className='Contact-main-block-social-icon-fb-mod' src="./icons/facebook-f.svg" alt='facebook icon' /></div>
                         </NavLink>
                         <NavLink to="https://www.instagram.com/maybarmobile/" target='_blank'  >
                             <div className='Contact-main-block-logo-insta-mod'><img className='Contact-main-block-social-icon-insta-mod' src="./icons/instagram.svg" alt='instagram icon' /></div>
                         </NavLink>
+                        </div>
                     </div>
                 </div>
                 {/* <button onClick={() => setShowModal(true)}>Ouvrir la modale</button> */}
@@ -86,14 +88,14 @@ const ContactComp = ({ closeModal }) => {
 
                                 <div className="Contact-Form-email-mod">
                                     <div className="Contact-Form-labinp-mod">
-                                        <label className="Contact-Form-label-mod" htmlFor="email">Adresse email</label>
+                                        <label className="Contact-Form-label-mod" htmlFor="email">email</label>
                                         <input className="Contact-Form-message-input-mod" {...register("email", { required: true })} type="email" id="email" /></div>
                                     {errors.email && <span className="Contact-Form-message-erreur-mod">Ce champ est requis</span>}
                                 </div>
 
                                 <div className="Contact-Form-telephone-mod">
                                     <div className="Contact-Form-labinp-mod">
-                                        <label className="Contact-Form-label-mod" htmlFor="telephone">Téléphone</label>
+                                        <label className="Contact-Form-label-mod" htmlFor="telephone">Tél</label>
                                         <input className="Contact-Form-message-input-mod"  {...register("telephone", { required: true })} type="tel" id="telephone" /></div>
                                     {errors.telephone && <span className="Contact-Form-message-erreur-mod">Ce champ est requis</span>}
                                 </div>

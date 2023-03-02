@@ -42,7 +42,7 @@ const Boissons = [
     decoration: "tête de menthe.",
     preparation: "Préparation au verre, servie dans un verre type Mojito avec de la glace pilée.",
     quantite: "10 cl",
-    image: "./maybarboissons/cocktails/classique/mojito.png",
+    image: "./maybarboissons/cocktails/classique/mojito.PNG",
   },
   {
     nom: "Pina Colada",
@@ -53,7 +53,7 @@ const Boissons = [
     decoration: "Tranche d’ananas.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./maybarboissons/cocktails/classique/pinacolada.png",
+    image: "./maybarboissons/cocktails/classique/pinacolada.PNG",
   },
   {
     nom: "Moscow Mule",
@@ -64,7 +64,7 @@ const Boissons = [
     decoration: "Rondelle de citron.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec de la glace pilée.",
     quantite: "14 cl",
-    image: "./maybarboissons/cocktails/classique/moscowmule.png",
+    image: "./maybarboissons/cocktails/classique/moscowmule.PNG",
   },
   {
     nom: "Sex On The Beach",
@@ -75,7 +75,7 @@ const Boissons = [
     decoration: "Tranche d’ananas.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./maybarboissons/cocktails/classique/sexonthebeach.png",
+    image: "./maybarboissons/cocktails/classique/sexonthebeach.PNG",
   },
   {
     nom: "Spritz",

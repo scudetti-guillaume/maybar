@@ -5,7 +5,6 @@ import NotFound from './pages/NotFound';
 import Carte from './pages/Carte';
 import Contact from './pages/Contact';
 import Conditions from './pages/Conditions';
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 

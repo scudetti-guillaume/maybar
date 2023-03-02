@@ -8,7 +8,7 @@ const Boissons = [
     decoration: "rondelle de citron",
     preparation: "Préparation au verre, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "16 cl",
-    image: "./maybarboissons/cocktails/classique/gintonic.png",
+    image: "./maybarboissons/cocktails/classique/gintonic.PNG",
 
   },
   {
@@ -20,7 +20,7 @@ const Boissons = [
     decoration: "Rondelle de citron vert.",
     preparation: "Préparation au verre, servie dans un verre type old fashioned avec des glaçons pleins.",
     quantite: "20 cl",
-    image: "./maybarboissons/cocktails/classique/cubalibre.png",
+    image: "./maybarboissons/cocktails/classique/cubalibre.PNG",
   },
   {
     nom: "Bloody Mary",
@@ -31,7 +31,7 @@ const Boissons = [
     decoration: "rondelle citron jaune.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./maybarboissons/cocktails/classique/bloodymary.png",
+    image: "./maybarboissons/cocktails/classique/bloodymary.PNG",
   },
   {
     nom: "Mojito",
@@ -86,7 +86,7 @@ const Boissons = [
     decoration: "Tranche d’orange.",
     preparation: "Préparation au verre, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./maybarboissons/cocktails/classique/spritz.png",
+    image: "./maybarboissons/cocktails/classique/spritz.PNG",
   },
 
   {
@@ -98,7 +98,7 @@ const Boissons = [
     decoration: "Rondelle d'orange.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./maybarboissons/cocktails/classique/tequilasunrize.png",
+    image: "./maybarboissons/cocktails/classique/tequilasunrize.PNG",
 
   },
   {
@@ -110,7 +110,7 @@ const Boissons = [
     decoration: "Rondelle de citron.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./maybarboissons/cocktails/creation/voironnais.png",
+    image: "./maybarboissons/cocktails/creation/voironnais.PNG",
 
   },
   {
@@ -122,7 +122,7 @@ const Boissons = [
     decoration: "Tranche d'orange.",
     preparation: "Préparation au verre, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./maybarboissons/cocktails/creation/banafrai.png",
+    image: "./maybarboissons/cocktails/creation/banafrai.PNG",
   },
 
   {
@@ -134,7 +134,7 @@ const Boissons = [
     decoration: "Tranche de pomme.",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "20 cl",
-    image: "./maybarboissons/cocktails/creation/goblue.png",
+    image: "./maybarboissons/cocktails/creation/goblue.PNG",
   },
 
   {
@@ -146,7 +146,7 @@ const Boissons = [
     decoration: "Tête de menthe.",
     preparation: "Préparation au verre, servie dans un verre type Mojito avec de la glace pilée.",
     quantite: "18 cl",
-    image: "./maybarboissons/cocktails/creation/tsikyto.png",
+    image: "./maybarboissons/cocktails/creation/tsikyto.PNG",
   },
   {
     nom: "Apple Mojito",
@@ -157,7 +157,7 @@ const Boissons = [
     decoration: "Tête de menthe",
     preparation: "Préparation au verre, servie dans un verre type mojito avec de la glace pilée.",
     quantity: "18 cl",
-    image: "./maybarboissons/mocktails/applemojito.png",
+    image: "./maybarboissons/mocktails/applemojito.PNG",
 
   },
   {
@@ -169,7 +169,7 @@ const Boissons = [
     decoration: "Tranche d'ananas",
     preparation: "Préparation au shaker, servie dans un verre type Tumbler avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./maybarboissons/mocktails/borabora.png",
+    image: "./maybarboissons/mocktails/borabora.PNG",
 
   },
   {
@@ -181,7 +181,7 @@ const Boissons = [
     decoration: "Rondelle citron jaune",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./maybarboissons/mocktails/fraisebasilic.png",
+    image: "./maybarboissons/mocktails/fraisebasilic.PNG",
   },
   {
     nom: "Pina no Colada",
@@ -192,7 +192,7 @@ const Boissons = [
     decoration: "Tranche d'ananas",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./maybarboissons/mocktails/pinanocolada.png",
+    image: "./maybarboissons/mocktails/pinanocolada.PNG",
   },
 
   {
@@ -204,7 +204,7 @@ const Boissons = [
     decoration: "Tranche d'ananas",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./maybarboissons/mocktails/paradise.png",
+    image: "./maybarboissons/mocktails/paradise.PNG",
   },
   {
     nom: "Macumba",
@@ -215,7 +215,7 @@ const Boissons = [
     decoration: "Givrage sucre",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./maybarboissons/mocktails/macumba.png",
+    image: "./maybarboissons/mocktails/macumba.PNG",
 
   },
 
@@ -228,7 +228,7 @@ const Boissons = [
     decoration: "Tête de basilic",
     preparation: "Préparation au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantity: "18 cl",
-    image: "./maybarboissons/mocktails/matchatabasilic.png",
+    image: "./maybarboissons/mocktails/matchatabasilic.PNG",
 
   },
   {
@@ -240,7 +240,7 @@ const Boissons = [
     decoration: "Rondelle de citron.",
     preparation: "Au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./maybarboissons/mocktails/fraisebasilic.png",
+    image: "./maybarboissons/mocktails/fraisebasilic.PNG",
   },
 
   {
@@ -252,7 +252,7 @@ const Boissons = [
     decoration: "Tranche d'ananas.",
     preparation: "Au shaker, servie dans un verre type Collins avec des glaçons pleins.",
     quantite: "18 cl",
-    image: "./maybarboissons/mocktails/macumba.png",
+    image: "./maybarboissons/mocktails/macumba.PNG",
 
   },
 

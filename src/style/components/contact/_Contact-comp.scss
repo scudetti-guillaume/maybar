@@ -9,9 +9,13 @@
     padding: 1%;
     width: 100%;
     overflow-y: scroll;
-    height: 85vh;
+    height: 95vh;
     // border: $borderStyle;
     // border-radius: $borderRadius;
+        @media screen and (max-width: 870px) {
+            // margin-top: 3%;
+            height: 950px;
+            }
 
 }
 
@@ -156,6 +160,10 @@ align-items: center;
     padding: 3%;
     border: $borderStyle;
     border-radius: $borderRadius;
+        @media screen and (max-width: 764px) {
+            height: 570px;
+                width: 90%;
+            }
 }
 
 .Contact-Form-title-mod {

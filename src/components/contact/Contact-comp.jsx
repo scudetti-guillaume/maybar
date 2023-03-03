@@ -30,7 +30,7 @@ const ContactComp = ({ closeModal }) => {
 
     return (
         <>
-            
+
             <div className=" Contact-main-mod ">
                 <div onClick={closeModal} shouldCloseOnOverlayClick={true} className="Contact-closeModale">X</div>
                 <div className="Contact-main-block-mod">
@@ -47,7 +47,7 @@ const ContactComp = ({ closeModal }) => {
                     </p>
                     <div className="Contact-main-block-icon-contact-mod">
                         <div className="Contact-main-block-telephone-mod"> <BsFillTelephoneFill /> 0658461109</div>
-                       
+
                         <NavLink to="mailto:" target='_blank ' >
                             <div className="Contact-main-block-email-mod">
                                 <div className="Contact-main-block-email-icon-mod"><FiMail size="25px" /></div>
@@ -56,12 +56,12 @@ const ContactComp = ({ closeModal }) => {
                         </NavLink>
 
                         <div className="Contact-main-block-sociaux-mod">
-                        <NavLink to="https://www.facebook.com/MaybarMobile" target='_blank ' >
-                            <div className="Contact-main-block-logo-facebook-mod"><img className='Contact-main-block-social-icon-fb-mod' src="./icons/facebook-f.svg" alt='facebook icon' /></div>
-                        </NavLink>
-                        <NavLink to="https://www.instagram.com/maybarmobile/" target='_blank'  >
-                            <div className='Contact-main-block-logo-insta-mod'><img className='Contact-main-block-social-icon-insta-mod' src="./icons/instagram.svg" alt='instagram icon' /></div>
-                        </NavLink>
+                            <NavLink to="https://www.facebook.com/MaybarMobile" target='_blank ' >
+                                <div className="Contact-main-block-logo-facebook-mod"><img className='Contact-main-block-social-icon-fb-mod' src="./icons/facebook-f.svg" alt='facebook icon' /></div>
+                            </NavLink>
+                            <NavLink to="https://www.instagram.com/maybarmobile/" target='_blank'  >
+                                <div className='Contact-main-block-logo-insta-mod'><img className='Contact-main-block-social-icon-insta-mod' src="./icons/instagram.svg" alt='instagram icon' /></div>
+                            </NavLink>
                         </div>
                     </div>
                 </div>

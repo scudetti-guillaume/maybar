@@ -12,15 +12,15 @@ const Contact = () => {
     // const [showModal, setShowModal] = useState(false);
     // const handleClose = () => setShowModal(false);
     const onSubmit = (data) => {
-    
-//    let dataSend = data.Stringyfi
+
+        //    let dataSend = data.Stringyfi
         emailjs.sendForm('maybar', 'maybar', ".Contact-Form-Form", '8LVsJ91ALmIjeAPLU')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
-    
+
     };
     const { register, handleSubmit, formState: { errors } } = useForm();
 
@@ -28,7 +28,7 @@ const Contact = () => {
         <>
             <Navigation />
             <div className="Contact-main body-2 ">
-                
+
                 <div className="Contact-main-block">
                     <div className="Contact-main-block-header">
                         <img className="Contact-main-block-logo" src='./icons/maybarBc.png' alt='maybar logo'></img>
@@ -48,13 +48,15 @@ const Contact = () => {
                             </div>
                         </NavLink>
 
-
-                        <NavLink to="https://www.facebook.com/MaybarMobile" target='_blank ' >
-                            <div className="Contact-main-block-logo-facebook"><img className='Contact-main-block-social-icon-fb' src="./icons/facebook-f.svg" alt='facebook icon' /></div>
-                        </NavLink>
-                        <NavLink to="https://www.instagram.com/maybarmobile/" target='_blank'  >
-                            <div className='Contact-main-block-logo-insta'><img className='Contact-main-block-social-icon-insta' src="./icons/instagram.svg" alt='instagram icon' /></div>
-                        </NavLink>
+                        <div className="Contact-main-block-sociaux-test"> 
+                            <NavLink to="https://www.facebook.com/MaybarMobile" target='_blank ' >
+                                <div className="Contact-main-block-logo-facebook"><img className='Contact-main-block-social-icon-fb' src="./icons/facebook-f.svg" alt='facebook icon' /></div>
+                            </NavLink>
+                            <NavLink to="https://www.instagram.com/maybarmobile/" target='_blank'  >
+                                <div className='Contact-main-block-logo-insta'><img className='Contact-main-block-social-icon-insta' src="./icons/instagram.svg" alt='instagram icon' /></div>
+                            </NavLink>
+                            
+                        </div>
                     </div>
                 </div>
                 {/* <button onClick={() => setShowModal(true)}>Ouvrir la modale</button> */}

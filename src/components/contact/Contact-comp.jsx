@@ -4,6 +4,12 @@ import { NavLink } from 'react-router-dom';
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import emailjs from 'emailjs-com';
+import { FreeMode, Scrollbar, Mousewheel } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+// A11y, EffectCards, Controller,
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/scrollbar";
 
 
 const ContactComp = ({ closeModal }) => {
@@ -29,9 +35,21 @@ const ContactComp = ({ closeModal }) => {
     const { register, handleSubmit, formState: { errors } } = useForm();
 
     return (
-        <>
+      <div className=" Contact-main-mod ">
+            <Swiper
+                direction={"vertical"}
+                slidesPerView={"auto"}
+                freeMode={true}
+                scrollbar={true}
+                mousewheel={true}
+                modules={[FreeMode, Scrollbar, Mousewheel]}
+                className="mySwiper"
+            >
+            
+               
+                <SwiperSlide >
 
-            <div className=" Contact-main-mod ">
+         
                 <div onClick={closeModal} shouldCloseOnOverlayClick={true} className="Contact-closeModale">X</div>
                 <div className="Contact-main-block-mod">
                     <div className="Contact-main-block-header-mod">
@@ -115,9 +133,12 @@ const ContactComp = ({ closeModal }) => {
                         </div>
                     </div>
                 )}
-            </div>
-
-        </>
+      
+                </SwiperSlide>
+                  
+            </Swiper>
+        </div>
+       
     );
 };
 

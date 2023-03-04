@@ -1,7 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Modal from "react-modal";
-import ContactMod from '../contact/Contact-comp';
+// import Modal from "react-modal";
+// import ContactMod from '../contact/Contact-comp';
+
+
+
+
 // import '../style/components/_Navigation.scss'
 // import {GiOpenBook} from 'react-icons/gi';
 // import {SlBookOpen} from 'react-icons/sl';
@@ -14,10 +18,8 @@ import ContactMod from '../contact/Contact-comp';
 
 
 
-
-
 const Navigation = ({ scrollToComponent }) => {
-    const [modalIsOpen, setModalIsOpen] = useState(false);
+    // const [modalIsOpen, setModalIsOpen] = useState(false);
 
     return (
         <div className='Nav-main'>
@@ -53,23 +55,24 @@ const Navigation = ({ scrollToComponent }) => {
                     <div className='Nav-presta' >Prestations</div>
                 </li>
                 </NavLink>
-                {/* <NavLink to="/contact" >
-                    <li className='Nav-li' onClick={() => setModalIsOpen(true)}>
-                        <div className='Nav-contact'>Contact</div>
+                <NavLink to="/contact" >
+                    <li className='Nav-li' >
+                        <div className="Nav-li-text" >Contact</div>
+                        <div className="Nav-contact-icon"  ><img className='Nav-contact-icon' src='./icons/icone-graph/communicate32.png' alt='contact logo'></img></div>
                     </li >
-                </NavLink> */}
+                </NavLink>
                 {/* <FcContacts /> */}
                 {/* <AiFillContacts />
                 <MdOutlinePermContactCalendar /> */}
                 
-                <div className="Nav-li-text" onClick={() => setModalIsOpen(true)} >Contact</div>
+                {/* <div className="Nav-li-text" onClick={() => setModalIsOpen(true)} >Contact</div>
                 <div className="Nav-contact-icon" onClick={() => setModalIsOpen(true)} ><img className='Nav-contact-icon' src='./icons/icone-graph/communicate32.png' alt='contact logo'></img></div>
                 
-                {/* <div className="Nav-li-icon" onClick={() => setModalIsOpen(true)} ><FcBusinessContact /></div> */}
+                
                 <Modal className='Modale-Contact' isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}   >
                     <ContactMod closeModal={() => setModalIsOpen(false)} />
-                </Modal>
-
+                </Modal> */}
+                {/* <div className="Nav-li-icon" onClick={() => setModalIsOpen(true)} ><FcBusinessContact /></div> */}
 
                 <NavLink to="https://www.facebook.com/MaybarMobile" target='_blank'>
                     <li className='.Nav-li-icon'>

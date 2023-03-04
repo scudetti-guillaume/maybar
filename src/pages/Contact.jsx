@@ -4,8 +4,8 @@ import { useForm } from "react-hook-form";
 import { NavLink } from 'react-router-dom';
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
-import Navigation from "../components/navigation/Navigation";
-import Footer from "../components/footer/Footer";
+import Navigation from "../components/navigation/Navigation-2";
+import Footer from "../components/footer/Footer-2";
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -82,7 +82,7 @@ const Contact = () => {
 
                                 <div className="Contact-Form-email">
                                     <div className="Contact-Form-labinp">
-                                        <label className="Contact-Form-label" htmlFor="email">Adresse email</label>
+                                        <label className="Contact-Form-label" htmlFor="email">Email</label>
                                         <input className="Contact-Form-message-input" {...register("email", { required: true })} type="email" id="email" /></div>
                                     {errors.email && <span className="Contact-Form-message-erreur">Ce champ est requis</span>}
                                 </div>

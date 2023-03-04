@@ -9,8 +9,8 @@ width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        // max-width: 1200px;
-        height: auto;
+        // // max-width: 1200px;
+        // height: auto;
 }
 
 .Contact-main-block{
@@ -61,7 +61,6 @@ align-items: center;
 height: 20%;
 @media screen and (max-width: 870px) {
         flex-direction: column;
-        min-height: 100px;
     }
 
 }
@@ -145,11 +144,15 @@ padding-bottom: 3%;
 .Contact-Form{
     display: flex;
     justify-content: center;
-    height: 550px;
-    width: 80%;
+    // height: 100%;
+    width: 60%;
     padding: 3%;
     border: $borderStyle;
     border-radius: $borderRadius;
+            @media screen and (max-width: 870px) {
+                    // height: 570px;
+                    width: 90%;
+                }
 }
 
 .Contact-Form-title{
@@ -268,7 +271,7 @@ align-items: center;
 .Contact-Form-message-ta{
 display: flex;
 width: 100%;
-height: 100%;
+min-height: 150px;
 margin-top: 4%;
 padding: 2%;
 border: $borderStyle;

@@ -30,7 +30,7 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    background-size: cover;
+    // background-size: cover;
     // border: $borderStyle;
     // border-radius: $borderRadius;
 }
@@ -42,29 +42,33 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    background-size: cover;
+    // background-size: cover;
     // border: $borderStyle;
     // border-radius: $borderRadius;
 }
 
-.DCV2-block-right-cocktails-card-slider-main {
+.DCV2-cocktails-card-slider-main {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
     overflow: hidden;
     display: flex;
     // height: 100%;
     // width: 100%;
 }
 
-.DCV2-block-right-cocktails-card-slider-p {
+.DCV2-cocktails-card-slider-p {
     display: flex;
     flex-direction: column;
     // height: 100%;
-    width: 40%;
+    width: 50%;
     align-items: center;
     justify-content: space-between;
     background-color: #232327;
 }
 
-.DCV2-block-right-cocktails-card-slider-nom {
+.DCV2-cocktails-card-slider-nom {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -87,7 +91,7 @@
 
 // }
 
-.DCV2-block-right-cocktails-card-slider-description {
+.DCV2-cocktails-card-slider-description {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -98,7 +102,7 @@
     text-align: center;
 }
 
-.DCV2-block-right-cocktails-card-slider-ingredients {
+.DCV2-cocktails-card-slider-ingredients {
     display: flex;
     text-align: center;
     align-items: center;
@@ -110,20 +114,20 @@
     padding: 1%;
 }
 
-// .DCV2-block-right-cocktails-card-slider-contenair-img {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     width: 40%;
-//     // height: 80%;
-//     object-fit: cover;
-//     background-size: cover;
-//     border: $borderStyle;
-//     border-radius: $borderRadius;
-//     background-color: #01011cfb;
-// }
+.DCV2-cocktails-card-slider-contenair-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    // height: 80%;
+    object-fit: cover;
+    background-size: cover;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+    background-color: #01011cfb;
+}
 
-.DCV2-block-right-cocktails-card-slider-img {
+.DCV2-cocktails-card-slider-img {
     display: flex;
     // align-items: center;
     // justify-content: center;
@@ -132,6 +136,6 @@
     border: $borderStyle;
     border-radius: $borderRadius;
     // object-fit: contain;
-    background-size: cover;
+    background-size: contain;
     background-color: #01011cfb;
 }

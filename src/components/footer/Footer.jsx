@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Modal from "react-modal";
-import ContactMod from '../contact/Contact-comp';
+// import Modal from "react-modal";
+// import ContactMod from '../contact/Contact-comp';
 // import '../../style/components/footer/_Footer.scss'
 
 const Footer = ({ scrollToComponent }) => {
-    const [modalIsOpen, setModalIsOpen] = useState(false);
+    // const [modalIsOpen, setModalIsOpen] = useState(false);
     return (
         <div className='Footer-container'>
             <NavLink className="Footer-NavLink-block-logo" to="/" >
@@ -39,16 +39,17 @@ const Footer = ({ scrollToComponent }) => {
                 </li>
 
                 {/* </NavLink> */}
-                {/* <NavLink to="/contact" target='_blank' >
-                <li className='Footer-li'>
-                    <div className='Footer-contact'>Contact</div>
-                </li >
-                </NavLink> */}
-                <div className="Footer-li-contact" onClick={() => setModalIsOpen(true)} >Contact</div>
+                <NavLink to="/contact" >
+                    <li className='Nav-li' >
+                        <div className="Nav-li-text" >Contact</div>
+                        <div className="Nav-contact-icon"  ><img className='Nav-contact-icon' src='./icons/icone-graph/communicate32.png' alt='contact logo'></img></div>
+                    </li >
+                </NavLink>
+                {/* <div className="Footer-li-contact" onClick={() => setModalIsOpen(true)} >Contact</div>
                 <div className="Footer-contact-icon" onClick={() => setModalIsOpen(true)} ><img className='Nav-contact-icon' src='./icons/icone-graph/communicate32.png' alt='contact logo'></img></div>
                 <Modal className='Modale-Contact' isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}   >
                     <ContactMod closeModal={() => setModalIsOpen(false)} />
-                </Modal>
+                </Modal> */}
 
 
 

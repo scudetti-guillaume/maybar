@@ -1,6 +1,6 @@
 @import "../../_settings.scss";
 
-.DMV2-mocktails-card-main {
+.DMV2-main-swiper-cocktails-card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,72 +10,69 @@
 
 }
 
-.DMV2-mocktails-card-main-contenair {
+.DMV2-main-swiper-cocktails-card-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
+    align-content: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    // padding-left: 5%;
-    // padding-right: 5%;
+    ;
 }
 
-@media screen and (max-width: 992px) {
-    .DMV2-mocktails-card-main-contenair {
-        width: 100%;
-        margin: 0;
-        // min-height: 20vh;
-    }
-}
-
-.DMV2-mocktails-card-main-swiper {
+.DMV2-mocktails-card-slider-main {
     display: flex;
-    flex-direction: row;
+    // flex-direction: row;
     align-content: center;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    // height: 50%;
     height: 100%;
-    width: 80%;
-
+    width: 100%;
+    // background-size: cover;
+    // border: $borderStyle;
+    // border-radius: $borderRadius;
 }
 
-@media screen and (max-width: 992px) {
-    .DMV2-mocktails-card-main-swiper {
-        width: 100%;
-        margin: 0;
-        height: 100%;
-    }
-}
+// @media screen and (max-width: 992px) {
+//     .DMV2-mocktails-card-main-contenair {
+//         width: 100%;
+//         margin: 0;
+//         // min-height: 20vh;
+//     }
+// }
 
-
-
-.DMV2-mocktails-card-main-swiper-slider-contenair {
-
+.DMV2-mocktails-card-slider {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    height: 100%;
+    width: 100%;
+    // background-size: cover;
+    // border: $borderStyle;
+    // border-radius: $borderRadius;
+}
+
+// @media screen and (max-width: 768px) {
+//     .DMV2-mocktails-card-main-swiper {
+//         width: 100%;
+//         margin: 0;
+//         height: 100%;
+//     }
+// }
+
+
+.DMV2-mocktails-card-slider-main {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
     // height: 100%;
-    width: 100%;
-    background-size: cover;
-    border: $borderStyle;
-    border-radius: $borderRadius;
-}
-
-
-.DMV2-mocktails-card-main-swiper-slider-contenair-texte {
-    display: flex;
-    height: 100%;
     // width: 100%;
 }
 
-
-.DMV2-mocktails-card-main-swiper-slider-contenair-p {
+.DMV2-mocktails-card-slider-p {
     display: flex;
     flex-direction: column;
     // height: 100%;
@@ -83,10 +80,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: #232327;
-    border: $borderStyle;
-    border-radius: $borderRadius;
-
 }
+
 
 .DMV2-mocktails-card-main-swiper-slider-nom {
     display: flex;
@@ -96,7 +91,19 @@
     width: 100%;
     border: $borderStyle;
     border-radius: $borderRadius;
+    background-color: #490909;
+    // margin-bottom: 20px;
+}
 
+.DMV2-mocktails-card-main-swiper-slider-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45%;
+    width: 100%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+    text-align: center;
 }
 
 .DMV2-mocktails-card-main-swiper-slider-ingredients {
@@ -108,34 +115,33 @@
     width: 100%;
     border: $borderStyle;
     border-radius: $borderRadius;
-
-
+    padding: 1%;
 }
 
-.DMV2-mocktails-card-main-swiper-slider-description {
-
+.DMV2-block-right-cocktails-card-slider-contenair-img {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 40%;
-    width: 100%;
+    justify-content: center;
+    width: 40%;
+    // height: 80%;
+    object-fit: cover;
+    background-size: cover;
     border: $borderStyle;
     border-radius: $borderRadius;
-    text-align: center;
-
+    background-color: #01011cfb;
 }
 
 
 .DMV2-mocktails-card-main-swiper-slider-img {
     display: flex;
-    width: 50%;
-    background-color: #01011cfb;
-    background-size: cover;
-    border: $borderStyle;
-    border-radius: $borderRadius;
     // align-items: center;
     // justify-content: center;
-    max-height: 50%;
-    // object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+    // object-fit: contain;
+    background-size: contain;
+    background-color: #01011cfb;
 
 }

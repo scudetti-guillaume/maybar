@@ -42,7 +42,7 @@ const Footer = ({ scrollToComponent }) => {
                 </NavLink>
                 {/* </NavLink> */}
                 <NavLink to="/contact" >
-                    <li className='Nav-li' >
+                    <li className='Footer-li' >
                         <div className="Nav-li-text" >Contact</div>
                         <div className="Nav-contact-icon"  ><img className='Nav-contact-icon' src='./icons/icone-graph/communicate32.png' alt='contact logo'></img></div>
                     </li >

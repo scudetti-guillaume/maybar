@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
+// import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Modal from "react-modal";
 import BlockPhotosPrestation from './Block-photos-prestation';
-import ContactMod from '../contact/Contact-comp';
+// import ContactMod from '../contact/Contact-comp';
 
 
 Modal.setAppElement("#root");
 
 const Prestations = () => {
-    const [modalIsOpen, setModalIsOpen] = useState(false);
+    // const [modalIsOpen, setModalIsOpen] = useState(false);
 
     return (
         <div className='Presta-main' id='prestation-section'>
@@ -43,13 +44,13 @@ const Prestations = () => {
 
                         <div className="Presta-footer-navlink-logo">
 
-                            <div className="Presta-block-decription-btn-form-mod" onClick={() => setModalIsOpen(true)} ><span className="Presta-block-decription-btn-form-mod-span">Formulaire</span></div>
+                            {/* <div className="Presta-block-decription-btn-form-mod" onClick={() => setModalIsOpen(true)} ><span className="Presta-block-decription-btn-form-mod-span">Formulaire</span></div>
                             <Modal className='Modale-Contact' isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}   >
                                 <ContactMod closeModal={() => setModalIsOpen(false)} />
-                            </Modal>
-                            {/* <NavLink className="Presta-block-decription-Navlink-btn" to="/contact" target='_blank '>
-                                <div className="Presta-block-decription-btn-form">Contact</div>
-                            </NavLink> */}
+                            </Modal> */}
+                            <NavLink className="Presta-block-decription-Navlink-btn" to="/contact" target='_blank '>
+                                <div className="Presta-block-decription-btn-form-mod"><span className="Presta-block-decription-btn-form-mod-span">Formulaire</span></div>
+                            </NavLink>
                             <NavLink to="https://www.facebook.com/MaybarMobile" target='_blank ' >
                                 <div className="Presta-footer-logo-facebook"><img className='Cocktail-footer-social-icon-fb' src="./icons/facebook-f.svg" alt='facebook icon' /></div>
                             </NavLink>

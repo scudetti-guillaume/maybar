@@ -43,10 +43,10 @@ const DrinksCocktailsV2swiper = () => {
                 //     modifier: 3,
                 //     slideShadows: false,
                 // }}
-                // pagination={{
-                //     // type: "fraction", 
-                //     clickable: true 
-                // }}
+                pagination={{
+                    // type: "fraction", 
+                    clickable: true 
+                }}
                 // navigation={true}
                 // spaceBetween={30}
                 // centeredSlides={true}

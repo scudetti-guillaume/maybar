@@ -9,8 +9,8 @@
     height: auto;
 }
 
-.Carte-container{
-display: flex;
+.Carte-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ display: flex;
     // margin-right: auto;
     flex-direction: column;
     width: 100%;
-    
+
 }
 
 .Carte-container-cocktails-title {
@@ -78,21 +78,31 @@ display: flex;
     font-size: 300%;
 }
 
-// .Carte-container-cocktails-listeCocktails-classique {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     flex-direction: column;
-//     // border: $borderStyle;
-//     // border-radius: $borderRadius;
-//     margin-bottom: 1%;
-//     margin-left: auto;
-//     margin-right: auto;
-//     padding: 1%;
-//     width: 80%;
-//     height: 250px;
+.Carte-container-cocktails-listeCocktails-classique,
+.Carte-container-cocktails-listeCocktails-creation,
+.Carte-container-mocktails-listeMocktails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
 
-// }
+    @media screen and (max-width: 990px) {
+        width: 80%;
+    }
+
+    @media screen and (max-width: 700px) {
+        width: 100%;
+    }
+
+    // @media screen and (max-width: 650px) {
+
+    //         width: 100%;
+
+    // }
+
+
+}
 
 .Carte-container-cocktails-carte {
     display: flex;
@@ -102,22 +112,41 @@ display: flex;
     margin-left: auto;
     margin-bottom: 1%;
     // padding: 1%;
-    width: 90%;
+    width: 100%;
     height: 230px;
     border: $borderStyle;
     border-radius: $borderRadius;
     color: $color-3;
 
+    @media screen and (max-width: 650px) {
+        flex-direction: column;
+        height: auto;
+        width: 250px;
+    }
 }
 
 .Carte-container-cocktails-carte-img {
     display: flex;
-    width: 30%;
+    width: 40%;
     height: 100%;
-    padding: 2%;
+
+    @media screen and (max-width: 650px) {
+        background-image: cover;
+        height: 250px;
+        width: 250px;
+    }
 
 }
 
+.Carte-container-cocktails-carte-img-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+}
 
 .Carte-container-cocktails-carte-texte {
     display: flex;
@@ -130,13 +159,24 @@ display: flex;
     border-radius: $borderRadius;
     padding: 2%;
     padding-bottom: 5%;
+
+    @media screen and (max-width: 650px) {
+        background-image: cover;
+        // height: 250px;
+        width: 250px;
+    }
 }
 
-.Carte-container-cocktails-carte-cat{
-display: flex;
-justify-content: space-between;
-margin-top: 0;
-margin-bottom: 2%;
+.Carte-container-cocktails-carte-cat {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 2%;
+
+    @media screen and (max-width: 650px) {
+        margin-bottom: 0%;
+        ;
+    }
 
 }
 
@@ -182,22 +222,49 @@ margin-bottom: 2%;
     margin-left: auto;
     margin-bottom: 1%;
     // padding: 1%;
-    width: 90%;
+    width: 100%;
     // height: 25vh;
-        height: 230px;
+    height: 230px;
     border: $borderStyle;
     border-radius: $borderRadius;
     color: $color-3;
+
+    @media screen and (max-width: 650px) {
+        flex-direction: column;
+        height: auto;
+        width: 250px;
+    }
 
 }
 
 .Carte-container-mocktails-carte-img {
     display: flex;
-    width: 30%;
+    width: 40%;
     height: 100%;
-    padding: 2%;
+
+    // padding: 2%;
+    @media screen and (max-width: 650px) {
+        background-image: cover;
+        height: 250px;
+        width: 250px;
+    }
 
 }
+
+.Carte-container-mocktails-carte-img-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: $borderStyle;
+    border-radius: $borderRadius;
+
+}
+
+
+
+
 
 .Carte-container-mocktails-carte-texte {
     display: flex;
@@ -210,6 +277,12 @@ margin-bottom: 2%;
     border-radius: $borderRadius;
     padding: 2%;
     padding-bottom: 5%;
+
+    @media screen and (max-width: 650px) {
+        background-image: cover;
+        // height: 250px;
+        width: 250px;
+    }
 }
 
 .Carte-container-mocktails-carte-cat {
@@ -217,6 +290,11 @@ margin-bottom: 2%;
     justify-content: space-between;
     margin-top: 0;
     margin-bottom: 2%;
+
+    @media screen and (max-width: 650px) {
+        margin-bottom: 0%;
+        ;
+    }
 }
 
 .Carte-container-options {
@@ -248,6 +326,7 @@ margin-bottom: 2%;
     display: flex;
     flex-direction: column;
     width: 100%;
+    text-align: center;
 }
 
 .Carte-container-tarifs-p {
@@ -263,6 +342,7 @@ margin-bottom: 2%;
     font-weight: bolder;
     font-size: 120%;
     color: $color-5;
+    text-align: center;
 
 }
 
@@ -272,5 +352,6 @@ margin-bottom: 2%;
     align-items: center;
     padding: 1%;
     width: 100%;
+    text-align: center;
 
 }

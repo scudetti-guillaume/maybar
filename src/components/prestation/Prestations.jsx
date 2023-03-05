@@ -48,7 +48,7 @@ const Prestations = () => {
                             <Modal className='Modale-Contact' isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}   >
                                 <ContactMod closeModal={() => setModalIsOpen(false)} />
                             </Modal> */}
-                            <NavLink className="Presta-block-decription-Navlink-btn" to="/contact" target='_blank '>
+                            <NavLink className="Presta-block-decription-Navlink-btn" to="/contact" >
                                 <div className="Presta-block-decription-btn-form-mod"><span className="Presta-block-decription-btn-form-mod-span">Formulaire</span></div>
                             </NavLink>
                             <NavLink to="https://www.facebook.com/MaybarMobile" target='_blank ' >

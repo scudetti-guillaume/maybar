@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef} from "react";
 import galerie from '../../data/data-presta'
 import { EffectCube, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,8 +7,8 @@ import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 
 const Modalgalerieprestation = ({ closeModaleGalerie }) => {
-    const [modalWidth, setModalWidth] = useState(null);
-    const [modalHeight, setModalHeight] = useState(null);
+    // const [modalWidth, setModalWidth] = useState(null);
+    // const [modalHeight, setModalHeight] = useState(null);
     const swiperRef = useRef(null);
     const imgRef = useRef(null);
     const wrapperRef = useRef(null);
@@ -23,8 +23,8 @@ const Modalgalerieprestation = ({ closeModaleGalerie }) => {
 
     const handleImageLoaded = ({ target }) => {
         const { naturalWidth, naturalHeight } = target;
-        const maxWidth = window.innerWidth * 0.5; // 50% of screen width
-        const maxHeight = window.innerHeight * 0.7; // 60% of screen height
+        const maxWidth = window.innerWidth * 0.6; // 50% of screen width
+        const maxHeight = window.innerHeight * 0.6; // 60% of screen height
         const widthRatio = naturalWidth / maxWidth;
         const heightRatio = naturalHeight / maxHeight;
         const ratio = Math.max(widthRatio, heightRatio);
@@ -45,8 +45,8 @@ const Modalgalerieprestation = ({ closeModaleGalerie }) => {
             const height = Math.floor(naturalHeight / ratio);
             imgRef.current.style.width = `${width}px`;
             imgRef.current.style.height = `${height}px`;
-            setModalWidth(`${width}px`);
-            setModalHeight(`${height}px`);
+            // setModalWidth(`${width}px`);
+            // setModalHeight(`${height}px`);
             swiperRef.current?.wrapperEl?.classList.add("swiper--wide");
         }
         // else if (ratio < 0.4) {
@@ -61,15 +61,15 @@ const Modalgalerieprestation = ({ closeModaleGalerie }) => {
         else {
             imgRef.current.style.width = `${naturalWidth}px`;
             imgRef.current.style.height = `${naturalHeight}px`;
-            setModalWidth(`${naturalWidth}px`);
-            setModalHeight(`${naturalHeight}px`)
+            // setModalWidth(`${naturalWidth}px`);
+            // setModalHeight(`${naturalHeight}px`)
             swiperRef.current?.wrapperEl?.classList.add("swiper--tall");;
         }
     };
 
     return (
         <div className="modal-galerie-presta-main" onClick={shouldCloseOnOverlayClick} >
-            <div className="modal-galerie-presta-content" onClick={(e) => e.stopPropagation()} style={{ width: modalWidth, height: modalHeight }}>
+            <div className="modal-galerie-presta-content" onClick={(e) => e.stopPropagation()} >
                 <div className="modal-galerie-presta-close" onClick={closeModaleGalerie}>X</div>
                 <Swiper className="modal-galerie-presta-swiper"
                     effect={"cube"}
@@ -88,7 +88,7 @@ const Modalgalerieprestation = ({ closeModaleGalerie }) => {
                 >
                     <div className="swiper-wrapper" ref={wrapperRef}>
                     {galerie.map((picture, index) => (
-                        <SwiperSlide key={index}>
+                        <SwiperSlide key={index} className="modal-galerie-presta-content-pic">
                             <img
                                 className="modal-galerie-presta-pic"
                                 onLoad={handleImageLoaded}

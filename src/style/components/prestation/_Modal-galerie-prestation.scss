@@ -1,7 +1,7 @@
 @import "../../_settings.scss";
 
 .modal-galerie-presta-main{
-overflow-y: auto;
+// overflow-y: auto;
     position: fixed;
     top: 0;
     left: 0;
@@ -29,7 +29,7 @@ position: relative;
     min-height: 75vh;
    max-width: 55vw;
     max-height: 75vh;
-    overflow: auto;
+    // overflow: auto;
     margin-bottom: 1%;
     background: $background-body-2;
     border: $borderStyle;

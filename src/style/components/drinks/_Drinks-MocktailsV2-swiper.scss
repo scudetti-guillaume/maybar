@@ -79,7 +79,7 @@
     width: 50%;
     align-items: center;
     justify-content: space-between;
-    background-color: #232327;
+    // background-color: #232327;
 }
 
 
@@ -91,8 +91,8 @@
     width: 100%;
     border: $borderStyle;
     border-radius: $borderRadius;
-    background-color: #490909;
-    // margin-bottom: 20px;
+    background-color: #053003;
+    color: $color-4;
 }
 
 .DMV2-mocktails-card-main-swiper-slider-description {
@@ -104,6 +104,8 @@
     border: $borderStyle;
     border-radius: $borderRadius;
     text-align: center;
+    background-color: #060421c9;
+    color: $color-4;
 }
 
 .DMV2-mocktails-card-main-swiper-slider-ingredients {
@@ -116,6 +118,8 @@
     border: $borderStyle;
     border-radius: $borderRadius;
     padding: 1%;
+    background-color: #060421c9;
+    color: $color-4;
 }
 
 .DMV2-block-right-cocktails-card-slider-contenair-img {

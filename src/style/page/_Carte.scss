@@ -241,14 +241,11 @@
     display: flex;
     width: 40%;
     height: 100%;
-
-    // padding: 2%;
     @media screen and (max-width: 650px) {
         background-image: cover;
         height: 250px;
         width: 250px;
     }
-
 }
 
 .Carte-container-mocktails-carte-img-size {
@@ -259,12 +256,7 @@
     width: 100%;
     border: $borderStyle;
     border-radius: $borderRadius;
-
 }
-
-
-
-
 
 .Carte-container-mocktails-carte-texte {
     display: flex;

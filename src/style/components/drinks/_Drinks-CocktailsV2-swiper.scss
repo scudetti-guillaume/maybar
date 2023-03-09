@@ -65,7 +65,7 @@
     width: 50%;
     align-items: center;
     justify-content: space-between;
-    background-color: #232327;
+        color: $color-4;
 }
 
 .DCV2-cocktails-card-slider-nom {
@@ -76,7 +76,8 @@
     width: 100%;
     border: $borderStyle;
     border-radius: $borderRadius;
-    background-color: #490909;
+    background-color: #053003;
+    color: $color-4;
     // margin-bottom: 20px;
 }
 
@@ -100,6 +101,8 @@
     border: $borderStyle;
     border-radius: $borderRadius;
     text-align: center;
+    background-color: #060421c9;
+        color: $color-4;
 }
 
 .DCV2-cocktails-card-slider-ingredients {
@@ -112,6 +115,8 @@
     border: $borderStyle;
     border-radius: $borderRadius;
     padding: 1%;
+    background-color: #060421c9;
+        color: $color-4;
 }
 
 .DCV2-cocktails-card-slider-contenair-img {
@@ -124,7 +129,7 @@
     background-size: cover;
     border: $borderStyle;
     border-radius: $borderRadius;
-    background-color: #01011cfb;
+    
 }
 
 .DCV2-cocktails-card-slider-img {

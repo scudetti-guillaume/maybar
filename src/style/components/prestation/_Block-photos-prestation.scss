@@ -5,7 +5,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 width: 100%;
-height: 100%;
+height: 80vh;
 }
 
 
@@ -88,6 +88,8 @@ height: 100%;
                 justify-content: center;
                 width: 100%;
                 height: 100%;
+                padding: 1%;
+                
             }
             
             
@@ -102,6 +104,7 @@ height: 100%;
                 border-radius: $borderRadius;
                 border: $borderStyle;
                 color: $color-4;
+                cursor: pointer;
             }
         
             // .Prestation-texte-grid-1{
@@ -124,6 +127,7 @@ height: 100%;
                 object-fit: cover;
                 border: $borderStyle;
                 border-radius: $borderRadius;
+                cursor: pointer;
             }
         
             .Prestation-photo-grid-3 {
@@ -135,6 +139,7 @@ height: 100%;
                 object-fit: cover;
                 border-radius: $borderRadius;
                 border: $borderStyle;
+                cursor: pointer;
             }
     
             .Prestation-photo-grid-4 {
@@ -146,6 +151,7 @@ height: 100%;
                 object-fit: cover;
                 border: $borderStyle;
                 border-radius: $borderRadius;
+                cursor: pointer;
             }
         
             .Prestation-photo-grid-5 {
@@ -157,8 +163,8 @@ height: 100%;
                 object-fit: cover;
                 border-radius: $borderRadius;
                 border: $borderStyle;
+                cursor: pointer;
             }
-           
-           
-           
         }
+        
+      

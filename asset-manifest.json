@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c839913.css",
-    "main.js": "/static/js/main.c09e8c1b.js",
-    "static/media/choix.png": "/static/media/choix.23ce6f4213c64b58ee78.png",
-    "index.html": "/index.html",
-    "main.8c839913.css.map": "/static/css/main.8c839913.css.map",
-    "main.c09e8c1b.js.map": "/static/js/main.c09e8c1b.js.map"
+    "main.css": "/scudetti-guillaume/maybar/static/css/main.0718d8bd.css",
+    "main.js": "/scudetti-guillaume/maybar/static/js/main.c09e8c1b.js",
+    "static/media/choix.png": "/scudetti-guillaume/maybar/static/media/choix.23ce6f4213c64b58ee78.png",
+    "index.html": "/scudetti-guillaume/maybar/index.html",
+    "main.0718d8bd.css.map": "/scudetti-guillaume/maybar/static/css/main.0718d8bd.css.map",
+    "main.c09e8c1b.js.map": "/scudetti-guillaume/maybar/static/js/main.c09e8c1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c839913.css",
+    "static/css/main.0718d8bd.css",
     "static/js/main.c09e8c1b.js"
   ]
 }

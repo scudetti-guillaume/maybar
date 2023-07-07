@@ -6,8 +6,8 @@ const Blockphotos = () => {
     return (
         <div className='News-block-photo-main'>
             <div className="News-block-photo">
-                {/* <img className="News-photo-1" src="./photos-illustration/bartender2.jpg" alt="reseau-1" /> */}
-                <iframe className="News-photo-1" title='insta' src='https://www.instagram.com/reel/CnwATGvhPGG/?utm_source=ig_web_button_share_sheet' alt="reseau-1"> </iframe>
+                <img className="News-photo-1" src="./photos-illustration/bartender2.jpg" alt="reseau-1" />
+                {/* <iframe className="News-photo-1" title='insta' src='https://www.instagram.com/reel/CnwATGvhPGG/?utm_source=ig_web_button_share_sheet' alt="reseau-1"> </iframe> */}
                 <p className='News-texte-photo-2'>
                     <span className='News-texte-photo-2-span' > Petite création :</span>
                     <br />

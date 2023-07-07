@@ -26,10 +26,11 @@ overflow-y: auto;
     color: $white;
     padding: 1%;
     width: 80%;
+    max-width: 825px;
     overflow-y: auto;
     margin-bottom: 1%;
     background: $background-body-2;
-    height: 85vh;
+    height: auto;
     border: $borderStyle;
     border-radius: $borderRadius;
 

@@ -13,7 +13,7 @@ const Presentation = () => {
                 <h1 className='Pre-h1'>maybar</h1>
                 <h2 className='Pre-h2'>BAR EPHEMERE</h2>
                 <h3 className='Pre-h3'>
-                    UN BAR MOBILE QUI VOUS SUIT POUR TOUT VOS EVENEMENTS
+                    UN BAR MOBILE QUI VOUS SUIT POUR TOUS VOS EVENEMENTS
                 </h3>
             </div>
             <div className='Pre-hide'></div>

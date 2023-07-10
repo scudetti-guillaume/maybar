@@ -49,7 +49,7 @@ const ContactComp = ({ closeModal }) => {
                     </div>
                     <p className="Contact-main-block-p-mod">
                         <span className="Contact-main-block-span1-mod"> Pour tous devis, renseignement sur nos évènements, carte, prestation ,</span>
-                        <span> contactez nous par mail, téléphone, formulaire de contact ou directement sur nos réseau. </span>
+                        <span> contactez nous par mail, téléphone, formulaire de contact ou directement sur nos réseaux. </span>
                     </p>
                     <div className="Contact-main-block-icon-contact-mod">
                         <div className="Contact-main-block-telephone-mod"> <BsFillTelephoneFill /> 0658461109</div>

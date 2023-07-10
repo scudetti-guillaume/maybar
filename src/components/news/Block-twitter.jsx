@@ -15,7 +15,7 @@ const Blocktwitter = () => {
                     Gros talent et vraiment au top. Le pauvre je lui ai fait modifier le logo tellement de fois mais j'adore le final !!! 
                     <br />
                     Merci encore pour tout ! </span>
-                    <span>lien vers le post souhait bonne année fete soirée.. </span>
+                    {/* <span>lien vers le post souhait bonne année fete soirée.. </span> */}
             </p>
         </div>
     );

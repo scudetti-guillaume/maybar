@@ -25,13 +25,13 @@ const Prestations = () => {
             <div className="Presta-block-decription">
                 <h2 className="Presta-block-decription-h2">BAR MOBILE</h2>
                 <p className="Presta-block-decription-p">
-                    <span className="Presta-block-decription-span">Nous venons à vous pour tous vos événements dans la region rhone-alpes: </span>
+                    <span className="Presta-block-decription-span">Nous venons à vous pour tous vos événements dans la region rhône-alpes: </span>
                     {/* <span className="Presta-block-decription-span1">Nous venons à vous pour tous vos événements : </span> */}
                     <span className="Presta-block-decription-span">
                         mariages, anniversaires, séminaires, portes ouvertes, ...
                     </span>
                     <span className="Presta-block-decription-span">
-                        N'hésitez pas à demander votre devis via le formualire de contact ou directement sur nos réseaux.
+                        N'hésitez pas à demander votre devis via le formulaire de contact ou directement sur nos réseaux.
 
                     </span>
 
